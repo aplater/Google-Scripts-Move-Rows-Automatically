@@ -3,7 +3,9 @@ Using google scripts, move rows from one sheet to another
 
 
 > This file has been modified from https://www.seerinteractive.com/blog/google-sheets-scripts/ 
+
 > By: Christina Blake
+
 > See Section: Moving rows to a separate tab upon completion
 
 
