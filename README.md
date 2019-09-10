@@ -1,11 +1,12 @@
 # Google-Scripts-Move-Rows-Automatically
 Using google scripts, move rows from one sheet to another
 
-This file has been modified from https://www.seerinteractive.com/blog/google-sheets-scripts/ 
+> This file has been modified from https://www.seerinteractive.com/blog/google-sheets-scripts/ 
 
-By: CHRISTINA BLAKE
+> By: Christina Blake
 
-See Section: Moving rows to a separate tab upon completion
+> See Section: Moving rows to a separate tab upon completion
+
 
 To use this modified script
 
@@ -13,11 +14,11 @@ To use this modified script
 
 2. Create 3 sheets;
 
-  > - Sheet (1) Sheet Name: ToDo (make sure there are no spaces between To and Do. It is all one word ToDo)
+- Sheet (1) Sheet Name: ToDo (make sure there are no spaces between To and Do. It is all one word ToDo)
   
-  > - Sheet (2) Sheet Name: Doing
+- Sheet (2) Sheet Name: Doing
   
- > -  Sheet (3) Sheet Name: Done
+-  Sheet (3) Sheet Name: Done
   
 
 3. Create the column names in the corresponding column numbers;
