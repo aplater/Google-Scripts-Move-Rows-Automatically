@@ -14,19 +14,30 @@ To use this modified script
 2. Create 3 sheets;
 
   Sheet (1) Sheet Name: ToDo (make sure there are no spaces between To and Do. It is all one word ToDo)
+  
   Sheet (2) Sheet Name: Doing
+  
   Sheet (3) Sheet Name: Done
+  
 
 3. Create the column names in the corresponding column numbers;
 
   Column (1) Column Name: Category
+  
   Column (2) Column Name: Item
+  
   Column (3) Column Name: Due
+  
   Column (4) Column Name: Completed
+  
   Column (5) Column Name: Notes
+  
   Column (6) Column Name: Link
+  
   Column (7) Column Name: Reporting Date
+  
   Column (8) Column Name: Move
+  
   
 4. Select "Tools" from the Menu Bar 
 
