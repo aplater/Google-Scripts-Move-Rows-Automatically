@@ -1,0 +1,61 @@
+function onEdit(e) {
+  myFunction2();
+}
+
+
+function myFunction2() {
+  // moves a row from a sheet to another when a value is entered in a column
+
+  var sheetNameToWatch = "ToDo";
+
+  var columnNumberToWatch = 8;
+  var valueToWatch1 = "Doing";
+  var sheetName1ToMoveTheRowTo = "Doing";
+    
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = SpreadsheetApp.getActiveSheet();
+  var range = sheet.getActiveCell();
+  
+  if (sheet.getName() == sheetNameToWatch && range.getColumn() == columnNumberToWatch && range.getValue() == valueToWatch1) {
+
+    var targetSheet = ss.getSheetByName(sheetName1ToMoveTheRowTo);
+    var targetRange = targetSheet.getRange(targetSheet.getLastRow() + 1, 1);
+    sheet.getRange(range.getRow(), 1, 1, sheet.getLastColumn()).moveTo(targetRange);
+    sheet.deleteRow(range.getRow());
+  }  
+ 
+  var sheetNameToWatch = "ToDo";
+
+  var columnNumberToWatch = 8;
+  var valueToWatch2 = "Done";
+  var sheetName2ToMoveTheRowTo = "Done";
+    
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = SpreadsheetApp.getActiveSheet();
+  var range = sheet.getActiveCell();
+  
+  if (sheet.getName() == sheetNameToWatch && range.getColumn() == columnNumberToWatch && range.getValue() == valueToWatch2) {
+
+  var targetSheet = ss.getSheetByName(sheetName2ToMoveTheRowTo);
+  var targetRange = targetSheet.getRange(targetSheet.getLastRow() + 1, 1);
+  sheet.getRange(range.getRow(), 1, 1, sheet.getLastColumn()).moveTo(targetRange);
+  sheet.deleteRow(range.getRow());
+}  
+ 
+  var sheetNameToWatch = "Doing";
+
+  var columnNumberToWatch = 8;
+  var valueToWatch2 = "Done";
+  var sheetName2ToMoveTheRowTo = "Done";
+    
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = SpreadsheetApp.getActiveSheet();
+  var range = sheet.getActiveCell();
+  
+  if (sheet.getName() == sheetNameToWatch && range.getColumn() == columnNumberToWatch && range.getValue() == valueToWatch2) {
+
+    var targetSheet = ss.getSheetByName(sheetName2ToMoveTheRowTo);
+    var targetRange = targetSheet.getRange(targetSheet.getLastRow() + 1, 1);
+    sheet.getRange(range.getRow(), 1, 1, sheet.getLastColumn()).moveTo(targetRange);
+    sheet.deleteRow(range.getRow());
+  }}
