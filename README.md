@@ -2,9 +2,12 @@
 Using google scripts, move rows from one sheet to another
 
 This file has been modified from https://www.seerinteractive.com/blog/google-sheets-scripts/ 
-"Moving rows to a separate tab upon completion"
 
-To use this script
+By: CHRISTINA BLAKE
+
+See Section: Moving rows to a separate tab upon completion
+
+To use this modified script
 
 1. Create a new google spreadsheet
 
